@@ -1,0 +1,15 @@
+{
+  "name": "sites-worker-esm-starter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bash scripts/build.sh",
+    "validate": "node scripts/validate-artifact.mjs",
+    "test": "node tests/access.mjs && node tests/email-auth.mjs && node tests/calendar.mjs && node tests/safeguards.mjs && node tests/release.mjs && node tests/mcp-protocol.mjs && node tests/rate-window.mjs && node tests/notifications.mjs && node tests/qa-matrix.mjs && node tests/audit.mjs && node tests/audit-ui.mjs && node tests/commissioning.mjs && node tests/handover-tools.mjs && node tests/volume.mjs && node tests/package-export.mjs && node sdc/test/portable.mjs && node tests/security-adversarial.mjs",
+    "start:sdc": "node sdc/server.mjs",
+    "test:sdc": "DCE_TEST_SQLITE=yes npm test && node sdc/test/install-and-backup.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

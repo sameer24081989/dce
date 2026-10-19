@@ -1,0 +1,12 @@
+{
+  "verifiedAt": "2026-10-19T15:14:28.761Z",
+  "sourceExport": "7be1af20a0846821d2c34064676bc5266c613e5ed70a0cccf16c832806c84bf9",
+  "caseCount": 3,
+  "objectCount": 8,
+  "objectBytesEqual": true,
+  "caseAndHistoryEqual": true,
+  "accessPreservedInFaithfulRecovery": true,
+  "installerPreservedCases": true,
+  "onlineBackupIntegrity": true,
+  "scope": "Read-only source backup and isolated local SQLite recovery; no production migration or actual SDC deployment"
+}

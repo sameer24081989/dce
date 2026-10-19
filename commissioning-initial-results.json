@@ -1,0 +1,197 @@
+{
+  "executedAt": "2026-10-19T14:29:46.468Z",
+  "results": [
+    {
+      "id": "REM-01",
+      "description": "New deadline six days away receives catch-up",
+      "status": "FAIL",
+      "evidence": "Expected values to be strictly equal:\n\n0 !== 1\n"
+    },
+    {
+      "id": "REM-02",
+      "description": "Catch-up does not repeat the next day",
+      "status": "FAIL",
+      "evidence": "Expected values to be strictly equal:\n\n0 !== 1\n"
+    },
+    {
+      "id": "REM-03",
+      "description": "Three-day reminder still follows an earlier catch-up",
+      "status": "FAIL",
+      "evidence": "Expected values to be strictly equal:\n\n1 !== 2\n"
+    },
+    {
+      "id": "REM-04",
+      "description": "A recorded seven-day reminder suppresses redundant catch-up",
+      "status": "PASS"
+    },
+    {
+      "id": "REM-05",
+      "description": "New officer assignment receives one catch-up",
+      "status": "FAIL",
+      "evidence": "Expected values to be strictly equal:\n\n0 !== 2\n"
+    },
+    {
+      "id": "REM-06",
+      "description": "Runner downtime across seven-day point catches up at five days",
+      "status": "FAIL",
+      "evidence": "Expected values to be strictly equal:\n\n0 !== 1\n"
+    },
+    {
+      "id": "REM-07",
+      "description": "Disposal alone does not suppress outstanding obligation",
+      "status": "FAIL",
+      "evidence": "Expected values to be strictly equal:\n\n0 !== 1\n"
+    },
+    {
+      "id": "REM-08",
+      "description": "Explicit Done and Archived obligations do not send",
+      "status": "PASS"
+    },
+    {
+      "id": "REM-09",
+      "description": "Due today and overdue are flagged in run summary without inventing extra reminder stages",
+      "status": "FAIL",
+      "evidence": "Expected values to be strictly equal:\n\nundefined !== 1\n"
+    },
+    {
+      "id": "REM-10",
+      "description": "Invalid legacy deadline is flagged and does not send",
+      "status": "FAIL",
+      "evidence": "Cannot read properties of undefined (reading 'length')"
+    },
+    {
+      "id": "REM-11",
+      "description": "Revised legacy deadline without explicit grant date is flagged",
+      "status": "FAIL",
+      "evidence": "Cannot read properties of undefined (reading 'length')"
+    },
+    {
+      "id": "REM-12",
+      "description": "Explicit granted extension gets independent catch-up and preserves original",
+      "status": "FAIL",
+      "evidence": "Unexpected field: extensionGrantedOn"
+    },
+    {
+      "id": "REM-13",
+      "description": "Lost delivery response retries with stable relay idempotency key",
+      "status": "FAIL",
+      "evidence": "Expected values to be strictly equal:\n\n0 !== 2\n"
+    },
+    {
+      "id": "REM-14",
+      "description": "IST midnight rollover does not duplicate seven-day alert",
+      "status": "PASS"
+    },
+    {
+      "id": "REM-15",
+      "description": "Invalid legacy email is isolated and other cases continue",
+      "status": "FAIL",
+      "evidence": "Cannot read properties of undefined (reading 'length')"
+    },
+    {
+      "id": "REM-16",
+      "description": "Missing email is blocked and later assignment catches up",
+      "status": "FAIL",
+      "evidence": "Expected values to be strictly equal:\n\n0 !== 1\n"
+    },
+    {
+      "id": "EXT-01",
+      "description": "New granted extension requires grant date",
+      "status": "FAIL",
+      "evidence": "Missing expected rejection."
+    },
+    {
+      "id": "EXT-02",
+      "description": "Invalid grant date rejected",
+      "status": "FAIL",
+      "evidence": "The input did not match the regular expression /invalid calendar date/. Input:\n\n'Error: Unexpected field: extensionGrantedOn'\n"
+    },
+    {
+      "id": "EXT-03",
+      "description": "Grant date is stored and audited",
+      "status": "FAIL",
+      "evidence": "Unexpected field: extensionGrantedOn"
+    },
+    {
+      "id": "EXT-04",
+      "description": "Officer cannot change grant date",
+      "status": "FAIL",
+      "evidence": "The input did not match the regular expression /Only administrators/. Input:\n\n'Error: Unexpected field: extensionGrantedOn'\n"
+    },
+    {
+      "id": "EXT-05",
+      "description": "Extension requested leaves recorded deadline unchanged",
+      "status": "FAIL",
+      "evidence": "Expected values to be strictly equal:\n\n0 !== 1\n"
+    },
+    {
+      "id": "RUN-01",
+      "description": "Unconfigured scheduled runner is unavailable",
+      "status": "FAIL",
+      "evidence": "Expected values to be strictly equal:\n\n403 !== 404\n"
+    },
+    {
+      "id": "RUN-02",
+      "description": "Wrong scheduled-runner secret denied",
+      "status": "FAIL",
+      "evidence": "Expected values to be strictly equal:\n\n403 !== 404\n"
+    },
+    {
+      "id": "RUN-03",
+      "description": "No active delegated administrator denies runner",
+      "status": "PASS"
+    },
+    {
+      "id": "RUN-04",
+      "description": "Browser-origin requests cannot invoke scheduled runner",
+      "status": "FAIL",
+      "evidence": "Expected values to be strictly equal:\n\n404 !== 403\n"
+    },
+    {
+      "id": "RUN-05",
+      "description": "Scheduled runner accepts POST only",
+      "status": "FAIL",
+      "evidence": "Expected values to be strictly equal:\n\n404 !== 405\n"
+    },
+    {
+      "id": "RUN-06",
+      "description": "Unexpected scheduled-runner payload rejected",
+      "status": "FAIL",
+      "evidence": "Expected values to be strictly equal:\n\n403 !== 400\n"
+    },
+    {
+      "id": "RUN-07",
+      "description": "Disabled delivery safely returns disabled result to authorised runner",
+      "status": "FAIL",
+      "evidence": "Expected values to be strictly equal:\n\n403 !== 200\n"
+    },
+    {
+      "id": "RUN-08",
+      "description": "Configured runner requires delivery provider",
+      "status": "FAIL",
+      "evidence": "Expected values to be strictly equal:\n\n403 !== 503\n"
+    },
+    {
+      "id": "FAIL-01",
+      "description": "Backup failure prevents any delivery",
+      "status": "FAIL",
+      "evidence": "Missing expected rejection."
+    },
+    {
+      "id": "FAIL-02",
+      "description": "Failed post-send bookkeeping recovers using same relay key",
+      "status": "FAIL",
+      "evidence": "Missing expected rejection."
+    },
+    {
+      "id": "FAIL-03",
+      "description": "Authority changed during snapshot prevents outbox commit and delivery",
+      "status": "FAIL",
+      "evidence": "Missing expected rejection."
+    }
+  ],
+  "counts": {
+    "FAIL": 28,
+    "PASS": 4
+  }
+}

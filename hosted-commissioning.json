@@ -1,0 +1,1076 @@
+{
+  "executedAt": "2026-10-19T14:44:39.564Z",
+  "site": "https://dce-legal-isolated-staging.jocundgnome.chatgpt.site",
+  "storage": "Independent hosted Cloudflare R2 staging binding; synthetic fixtures under per-run namespaces",
+  "results": [
+    {
+      "id": "VAL-02",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 12674
+    },
+    {
+      "id": "VAL-01",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 15186
+    },
+    {
+      "id": "VAL-03",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 15646
+    },
+    {
+      "id": "VAL-04",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 4473
+    },
+    {
+      "id": "VAL-06",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 3925
+    },
+    {
+      "id": "VAL-10",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 90
+    },
+    {
+      "id": "VAL-05",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 6432
+    },
+    {
+      "id": "VAL-07",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 6357
+    },
+    {
+      "id": "VAL-08",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 6259
+    },
+    {
+      "id": "DATE-01",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 4985
+    },
+    {
+      "id": "DATE-02",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 3432
+    },
+    {
+      "id": "VAL-09",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 6052
+    },
+    {
+      "id": "DATE-04",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 4425
+    },
+    {
+      "id": "DATE-05",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 3449
+    },
+    {
+      "id": "DATE-03",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 5349
+    },
+    {
+      "id": "DATE-07",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 4197
+    },
+    {
+      "id": "DATE-10",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 7089
+    },
+    {
+      "id": "DATE-11",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 7374
+    },
+    {
+      "id": "AUTH-05",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 8725
+    },
+    {
+      "id": "STATUS-01",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 4158
+    },
+    {
+      "id": "SEC-16",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 7561
+    },
+    {
+      "id": "STATUS-02",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 12379
+    },
+    {
+      "id": "DATE-12",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 13130
+    },
+    {
+      "id": "STATUS-04",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 9771
+    },
+    {
+      "id": "AUTH-01",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 4636
+    },
+    {
+      "id": "AUTH-02",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 3431
+    },
+    {
+      "id": "STATUS-03",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 12700
+    },
+    {
+      "id": "STATUS-05",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 9492
+    },
+    {
+      "id": "AUTH-03",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 8862
+    },
+    {
+      "id": "AUTH-04",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 8454
+    },
+    {
+      "id": "AUTH-06",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 7393
+    },
+    {
+      "id": "SEC-11",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 8413
+    },
+    {
+      "id": "SEC-09",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 6367
+    },
+    {
+      "id": "SEC-17",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 6118
+    },
+    {
+      "id": "AUD-02",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 7516
+    },
+    {
+      "id": "AUTH-07",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 9921
+    },
+    {
+      "id": "AUTH-08",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 10083
+    },
+    {
+      "id": "SEC-15",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 11070
+    },
+    {
+      "id": "OPS-06",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 9944
+    },
+    {
+      "id": "DATA-01",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 9522
+    },
+    {
+      "id": "CON-09",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 11166
+    },
+    {
+      "id": "DATA-02",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 6798
+    },
+    {
+      "id": "CON-11",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 9293
+    },
+    {
+      "id": "CON-10",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 7460
+    },
+    {
+      "id": "DATA-03",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 7732
+    },
+    {
+      "id": "DATA-06",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 5499
+    },
+    {
+      "id": "AUD-01",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 5597
+    },
+    {
+      "id": "DATA-04",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 8760
+    },
+    {
+      "id": "DATA-05",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 8573
+    },
+    {
+      "id": "OPS-02",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 3648
+    },
+    {
+      "id": "DATA-07",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 5669
+    },
+    {
+      "id": "UI-04",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 7074
+    },
+    {
+      "id": "SEC-12",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 3438
+    },
+    {
+      "id": "SEC-14",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 52
+    },
+    {
+      "id": "OPS-01",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 10403
+    },
+    {
+      "id": "OPS-04",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 10667
+    },
+    {
+      "id": "SEC-10",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 7800
+    },
+    {
+      "id": "DAT-13",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 5475
+    },
+    {
+      "id": "DAT-14",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 3996
+    },
+    {
+      "id": "SEC-18",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 7050
+    },
+    {
+      "id": "DAT-15",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 3944
+    },
+    {
+      "id": "DAT-17",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 10126
+    },
+    {
+      "id": "UPGRADE:AU-01",
+      "description": "Audit access restriction: null",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 2783
+    },
+    {
+      "id": "CON-12",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 11734
+    },
+    {
+      "id": "UPGRADE:AU-02",
+      "description": "Audit access restriction: viewer@example.test",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 4127
+    },
+    {
+      "id": "AUD-03",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 9331
+    },
+    {
+      "id": "UPGRADE:AU-03",
+      "description": "Audit access restriction: officer@example.test",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 3812
+    },
+    {
+      "id": "UPGRADE:AU-04",
+      "description": "Audit access restriction: stranger@example.test",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 3953
+    },
+    {
+      "id": "UPGRADE:AU-06",
+      "description": "Legacy object history and missing details labelled without mutation",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 3853
+    },
+    {
+      "id": "OPS-03",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 28951
+    },
+    {
+      "id": "UPGRADE:AU-07",
+      "description": "IST date filter includes previous UTC date",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 3749
+    },
+    {
+      "id": "UPGRADE:AU-08",
+      "description": "Reject invalid audit query from=2026-02-30",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 3195
+    },
+    {
+      "id": "UPGRADE:AU-09",
+      "description": "Reject invalid audit query from=2026-10-20&to=2026-10-19",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 3438
+    },
+    {
+      "id": "UPGRADE:AU-10",
+      "description": "Reject invalid audit query page=-1",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 3301
+    },
+    {
+      "id": "UPGRADE:AU-05",
+      "description": "Audit records previous/new values, actor, role and stable event ID",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 8764
+    },
+    {
+      "id": "UPGRADE:AU-11",
+      "description": "Reject invalid audit query page=1.5",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 3283
+    },
+    {
+      "id": "UPGRADE:AU-12",
+      "description": "Reject invalid audit query role=Administrator",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 3177
+    },
+    {
+      "id": "UPGRADE:AU-13",
+      "description": "Reject invalid audit query q=a&q=b",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 3845
+    },
+    {
+      "id": "UPGRADE:AU-15",
+      "description": "Audit pagination returns all rows exactly once",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 4819
+    },
+    {
+      "id": "UPGRADE:EX-01",
+      "description": "Deny both Excel exports to viewer@example.test",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 5149
+    },
+    {
+      "id": "OPS-05",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 26592
+    },
+    {
+      "id": "UPGRADE:EX-03",
+      "description": "Anonymous Excel denied",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 2536
+    },
+    {
+      "id": "UPGRADE:AU-14",
+      "description": "Search field, actor name, E-office and text",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 8527
+    },
+    {
+      "id": "UPGRADE:EX-04",
+      "description": "Reject invalid export request",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 3417
+    },
+    {
+      "id": "UPGRADE:EX-02",
+      "description": "Deny both Excel exports to officer@example.test",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 5064
+    },
+    {
+      "id": "UPGRADE:EX-05",
+      "description": "Reject invalid export request",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 3086
+    },
+    {
+      "id": "UPGRADE:EX-06",
+      "description": "Reject invalid export request",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 3279
+    },
+    {
+      "id": "UPGRADE:EX-07",
+      "description": "Reject invalid export request",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 3458
+    },
+    {
+      "id": "UPGRADE:EX-10",
+      "description": "Export fails closed when backup/audit cannot be saved",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 3896
+    },
+    {
+      "id": "UPGRADE:EX-08",
+      "description": "Complete workbook contains cases, history, roles and export metadata",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 9531
+    },
+    {
+      "id": "UPGRADE:EX-09",
+      "description": "Filtered audit exports only matching data and logs export separately",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 10277
+    },
+    {
+      "id": "UPGRADE:EX-11",
+      "description": "Concurrent exports do not overwrite newer data",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 9632
+    },
+    {
+      "id": "UPGRADE:CN-01",
+      "description": "Ordinary administrator save cannot change case number",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 5986
+    },
+    {
+      "id": "UPGRADE:CN-02",
+      "description": "MCP ordinary save cannot change case number",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 6620
+    },
+    {
+      "id": "UPGRADE:CN-03",
+      "description": "Non-admin correction blocked",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 6828
+    },
+    {
+      "id": "UPGRADE:EX-12",
+      "description": "Export audit survives backup/recovery",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 13881
+    },
+    {
+      "id": "UPGRADE:CN-04",
+      "description": "Non-admin correction blocked",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 7060
+    },
+    {
+      "id": "UPGRADE:CN-06",
+      "description": "Invalid case-number action rejected",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 6228
+    },
+    {
+      "id": "UPGRADE:CN-07",
+      "description": "Invalid case-number action rejected",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 6521
+    },
+    {
+      "id": "UPGRADE:CN-05",
+      "description": "Invalid case-number action rejected",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 7693
+    },
+    {
+      "id": "UPGRADE:CN-09",
+      "description": "Invalid case-number action rejected",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 6218
+    },
+    {
+      "id": "UPGRADE:CN-08",
+      "description": "Invalid case-number action rejected",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 6637
+    },
+    {
+      "id": "UPGRADE:CN-10",
+      "description": "Invalid case-number action rejected",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 6501
+    },
+    {
+      "id": "UPGRADE:CN-11",
+      "description": "Correction preserves identity, deadlines, history and searchable prior number",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 9042
+    },
+    {
+      "id": "UPGRADE:CN-12",
+      "description": "Court renumbering records order and date",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 8227
+    },
+    {
+      "id": "UPGRADE:CN-13",
+      "description": "Normalized duplicate correction blocked",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 10412
+    },
+    {
+      "id": "UPGRADE:CN-15",
+      "description": "Correction retry is idempotent; changed reference rejects reused request",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 9914
+    },
+    {
+      "id": "UPGRADE:CN-14",
+      "description": "Stale version correction blocked",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 9734
+    },
+    {
+      "id": "UPGRADE:CN-16",
+      "description": "Concurrent case-number corrections preserve one winner",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 9032
+    },
+    {
+      "id": "UPGRADE:CN-17",
+      "description": "Unknown payload fields and forged identity rejected",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 6027
+    },
+    {
+      "id": "UPGRADE:AU-17",
+      "description": "Audit and export endpoints cannot edit history",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 3502
+    },
+    {
+      "id": "UPGRADE:AU-16",
+      "description": "Access changes appear in audit results",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 7387
+    },
+    {
+      "id": "UPGRADE:AU-18",
+      "description": "No-op ordinary save leaves history unchanged",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 6613
+    },
+    {
+      "id": "RELEASE-EXTRA",
+      "status": "PASS",
+      "evidence": "Hosted R2 backed-up release activation, strict guards, digest equality and legacy preservation",
+      "httpStatus": 200,
+      "elapsedMs": 12478
+    },
+    {
+      "id": "MCP-EXTRA",
+      "status": "PASS",
+      "evidence": "Hosted R2 MCP reserved metadata compatibility, unchanged attribution and strict business-field validation",
+      "httpStatus": 200,
+      "elapsedMs": 9063
+    },
+    {
+      "id": "HTTP-AUTH",
+      "status": "PASS",
+      "checks": [
+        {
+          "forged": false,
+          "httpStatus": 401
+        },
+        {
+          "forged": true,
+          "httpStatus": 401
+        },
+        {
+          "missingQaSecret": true,
+          "httpStatus": 404
+        }
+      ],
+      "elapsedMs": 14165
+    },
+    {
+      "id": "COMMISSION:REM-01",
+      "description": "New deadline six days away receives catch-up",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 14625
+    },
+    {
+      "id": "COMMISSION:REM-02",
+      "description": "Catch-up does not repeat the next day",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 24347
+    },
+    {
+      "id": "COMMISSION:REM-03",
+      "description": "Three-day reminder still follows an earlier catch-up",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 26878
+    },
+    {
+      "id": "COMMISSION:REM-04",
+      "description": "A recorded seven-day reminder suppresses redundant catch-up",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 26519
+    },
+    {
+      "id": "COMMISSION:REM-05",
+      "description": "New officer assignment receives one catch-up",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 30003
+    },
+    {
+      "id": "COMMISSION:REM-06",
+      "description": "Runner downtime across seven-day point catches up at five days",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 15214
+    },
+    {
+      "id": "COMMISSION:REM-08",
+      "description": "Explicit Done and Archived obligations do not send",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 6976
+    },
+    {
+      "id": "COMMISSION:REM-09",
+      "description": "Due today and overdue are flagged in run summary without inventing extra reminder stages",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 6861
+    },
+    {
+      "id": "COMMISSION:REM-07",
+      "description": "Disposal alone does not suppress outstanding obligation",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 14438
+    },
+    {
+      "id": "COMMISSION:REM-11",
+      "description": "Revised legacy deadline without explicit grant date is flagged",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 6070
+    },
+    {
+      "id": "COMMISSION:REM-10",
+      "description": "Invalid legacy deadline is flagged and does not send",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 6907
+    },
+    {
+      "id": "COMMISSION:REM-12",
+      "description": "Explicit granted extension gets independent catch-up and preserves original",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 18210
+    },
+    {
+      "id": "NOTIFY-EXTRA",
+      "status": "PASS",
+      "evidence": "Hosted R2 notification retries, leases, deduplication and granted-extension cancellation; simulated delivery only",
+      "httpStatus": 200,
+      "elapsedMs": 115294
+    },
+    {
+      "id": "COMMISSION:REM-13",
+      "description": "Lost delivery response retries with stable relay idempotency key",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 23920
+    },
+    {
+      "id": "COMMISSION:REM-15",
+      "description": "Invalid legacy email is isolated and other cases continue",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 12838
+    },
+    {
+      "id": "COMMISSION:REM-14",
+      "description": "IST midnight rollover does not duplicate seven-day alert",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 17670
+    },
+    {
+      "id": "COMMISSION:EXT-01",
+      "description": "New granted extension requires grant date",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 2998
+    },
+    {
+      "id": "COMMISSION:EXT-02",
+      "description": "Invalid grant date rejected",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 3227
+    },
+    {
+      "id": "COMMISSION:EXT-03",
+      "description": "Grant date is stored and audited",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 5342
+    },
+    {
+      "id": "COMMISSION:EXT-04",
+      "description": "Officer cannot change grant date",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 3249
+    },
+    {
+      "id": "COMMISSION:RUN-01",
+      "description": "Unconfigured scheduled runner is unavailable",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 2838
+    },
+    {
+      "id": "COMMISSION:REM-16",
+      "description": "Missing email is blocked and later assignment catches up",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 22895
+    },
+    {
+      "id": "COMMISSION:RUN-02",
+      "description": "Wrong scheduled-runner secret denied",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 2633
+    },
+    {
+      "id": "COMMISSION:RUN-03",
+      "description": "No active delegated administrator denies runner",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 4870
+    },
+    {
+      "id": "COMMISSION:RUN-04",
+      "description": "Browser-origin requests cannot invoke scheduled runner",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 4165
+    },
+    {
+      "id": "COMMISSION:RUN-06",
+      "description": "Unexpected scheduled-runner payload rejected",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 2808
+    },
+    {
+      "id": "COMMISSION:RUN-05",
+      "description": "Scheduled runner accepts POST only",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 2947
+    },
+    {
+      "id": "COMMISSION:EXT-05",
+      "description": "Extension requested leaves recorded deadline unchanged",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 15856
+    },
+    {
+      "id": "COMMISSION:RUN-07",
+      "description": "Disabled delivery safely returns disabled result to authorised runner",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 3701
+    },
+    {
+      "id": "COMMISSION:RUN-08",
+      "description": "Configured runner requires delivery provider",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 3886
+    },
+    {
+      "id": "COMMISSION:FAIL-01",
+      "description": "Backup failure prevents any delivery",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 3681
+    },
+    {
+      "id": "COMMISSION:RUN-10",
+      "description": "Revoking delegated runner administrator stops subsequent unattended execution",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 16315
+    },
+    {
+      "id": "COMMISSION:RUN-09",
+      "description": "Authorised unattended runner records service identity and successful run summary with simulated relay",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 17074
+    },
+    {
+      "id": "COMMISSION:FAIL-02",
+      "description": "Failed post-send bookkeeping recovers using same relay key",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 17154
+    },
+    {
+      "id": "COMMISSION:FAIL-03",
+      "description": "Authority changed during snapshot prevents outbox commit and delivery",
+      "status": "PASS",
+      "httpStatus": 200,
+      "elapsedMs": 5885
+    }
+  ]
+}

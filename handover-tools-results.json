@@ -1,0 +1,70 @@
+{
+  "executedAt": "2026-10-19T17:34:25.166Z",
+  "results": [
+    {
+      "id": "HAND-01",
+      "description": "Read-only verifier accepts checksum-valid legacy history",
+      "status": "PASS"
+    },
+    {
+      "id": "HAND-02",
+      "description": "Checksum tampering rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "HAND-03",
+      "description": "Duplicate normalized number rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "HAND-04",
+      "description": "Owner mismatch rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "HAND-05",
+      "description": "Invalid date rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "HAND-06",
+      "description": "No target evidence does not claim deployment readiness",
+      "status": "PASS"
+    },
+    {
+      "id": "HAND-07",
+      "description": "PASS without evidence/reviewer/date remains blocked",
+      "status": "PASS"
+    },
+    {
+      "id": "HAND-08",
+      "description": "Complete supplied evidence accepted as checklist evidence only",
+      "status": "PASS"
+    },
+    {
+      "id": "HAND-09",
+      "description": "Scheduler client refuses absent configuration without making a request",
+      "status": "PASS"
+    },
+    {
+      "id": "HAND-10",
+      "description": "Malformed backup collection returns rejection rather than throwing",
+      "status": "PASS"
+    },
+    {
+      "id": "HAND-11",
+      "description": "Training generator refuses invalid calendar date",
+      "status": "PASS"
+    },
+    {
+      "id": "HAND-12",
+      "description": "Training generator handles leap-year boundary and is synthetic only",
+      "status": "PASS"
+    },
+    {
+      "id": "HAND-13",
+      "description": "Training generator refuses to overwrite an existing file",
+      "status": "PASS"
+    }
+  ]
+}

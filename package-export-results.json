@@ -1,0 +1,25 @@
+{
+  "executedAt": "2026-10-19T17:34:28.594Z",
+  "results": [
+    {
+      "id": "PKG-01",
+      "status": "PASS"
+    },
+    {
+      "id": "PKG-02",
+      "status": "PASS"
+    },
+    {
+      "id": "PKG-03",
+      "status": "PASS"
+    },
+    {
+      "id": "PKG-04",
+      "status": "PASS"
+    },
+    {
+      "id": "PKG-05",
+      "status": "PASS"
+    }
+  ]
+}

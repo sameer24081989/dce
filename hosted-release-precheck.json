@@ -1,0 +1,14 @@
+{
+  "executedAt": "2026-10-19T12:56:12.778Z",
+  "site": "https://dce-legal-isolated-staging.jocundgnome.chatgpt.site",
+  "storage": "Independent hosted Cloudflare R2 staging binding; synthetic fixtures under per-run namespaces",
+  "results": [
+    {
+      "id": "RELEASE-EXTRA",
+      "status": "PASS",
+      "evidence": "Hosted R2 backed-up release activation, strict guards, digest equality and legacy preservation",
+      "httpStatus": 200,
+      "elapsedMs": 23999
+    }
+  ]
+}

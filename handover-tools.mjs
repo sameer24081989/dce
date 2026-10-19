@@ -1,0 +1,18 @@
+import assert from'node:assert/strict';import{createHash}from'node:crypto';import{writeFile,mkdtemp,readFile}from'node:fs/promises';import{tmpdir}from'node:os';import{spawnSync}from'node:child_process';import{verifyBackup}from'../tools/verify-backup.mjs';import{acceptanceStatus}from'../tools/acceptance-status.mjs';
+const results=[];function test(id,description,fn){fn();results.push({id,description,status:'PASS'});}const mk=cases=>{const content={ownerId:'dept',access:{ownerId:'dept',members:[]},register:{schema:2,cases}};return{content,sha256:createHash('sha256').update(JSON.stringify(content)).digest('hex')};};const record={id:'a',number:'01/2026',status:'Pending',deadline:'2026-10-19',history:{at:'2026-10-13',before:null}};
+test('HAND-01','Read-only verifier accepts checksum-valid legacy history',()=>assert.equal(verifyBackup(mk([record])).ok,true));
+test('HAND-02','Checksum tampering rejected',()=>{const b=mk([record]);b.content.register.cases=[];assert.equal(verifyBackup(b).ok,false);});
+test('HAND-03','Duplicate normalized number rejected',()=>assert.equal(verifyBackup(mk([record,{...record,id:'b',number:'1/2026'}])).ok,false));
+test('HAND-04','Owner mismatch rejected',()=>{const b=mk([record]);b.content.access.ownerId='wrong';assert.equal(verifyBackup(b).ok,false);});
+test('HAND-05','Invalid date rejected',()=>assert.equal(verifyBackup(mk([{...record,deadline:'2026-02-30'}])).ok,false));
+test('HAND-06','No target evidence does not claim deployment readiness',()=>assert.equal(acceptanceStatus({}).ready,false));
+test('HAND-07','PASS without evidence/reviewer/date remains blocked',()=>assert.equal(acceptanceStatus({targetRuntime:{status:'PASS'}}).results[0].status,'BLOCKED'));
+test('HAND-08','Complete supplied evidence accepted as checklist evidence only',()=>{const e=Object.fromEntries(acceptanceStatus({}).results.map(r=>[r.id,{status:'PASS',evidence:'Synthetic tool self-test, not target verification',verifiedBy:'Test fixture',verifiedAt:'2026-10-19T14:00:00Z'}]));assert.equal(acceptanceStatus(e).ready,true);});
+test('HAND-09','Scheduler client refuses absent configuration without making a request',()=>{const r=spawnSync(process.execPath,['tools/run-reminders.mjs'],{env:{PATH:process.env.PATH},encoding:'utf8'});assert.equal(r.status,1);assert.match(r.stderr,/Configure DCE_RUNNER_URL/);});
+test('HAND-10','Malformed backup collection returns rejection rather than throwing',()=>{const b=mk([]);b.content.register.cases={};assert.equal(verifyBackup(b).ok,false);assert.equal(verifyBackup(mk([null])).ok,false);});
+const fixtureDir=await mkdtemp(tmpdir()+'/dce-training-');const fixturePath=fixtureDir+'/fixtures.json';
+test('HAND-11','Training generator refuses invalid calendar date',()=>{const r=spawnSync(process.execPath,['tools/training-fixtures.mjs','2026-02-30',fixturePath],{encoding:'utf8'});assert.equal(r.status,1);});
+const generated=spawnSync(process.execPath,['tools/training-fixtures.mjs','2028-02-25',fixturePath],{encoding:'utf8'});assert.equal(generated.status,0);const fixtures=JSON.parse(await readFile(fixturePath,'utf8'));
+test('HAND-12','Training generator handles leap-year boundary and is synthetic only',()=>{assert.equal(fixtures.syntheticOnly,true);assert.equal(fixtures.cases.length,6);assert.equal(fixtures.cases[0].deadline,'2028-03-03');});
+test('HAND-13','Training generator refuses to overwrite an existing file',()=>{const r=spawnSync(process.execPath,['tools/training-fixtures.mjs','2028-02-25',fixturePath],{encoding:'utf8'});assert.equal(r.status,1);});
+await writeFile('reports/handover-tools-results.json',JSON.stringify({executedAt:new Date().toISOString(),results},null,2));console.log('Handover tool self-tests: 13 PASS; no SDC environment was tested.');

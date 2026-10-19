@@ -1,0 +1,243 @@
+{
+  "executedAt": "2026-10-19T17:34:23.584Z",
+  "counts": {
+    "PASS": 47
+  },
+  "results": [
+    {
+      "id": "AU-01",
+      "description": "Audit access restriction: null",
+      "status": "PASS"
+    },
+    {
+      "id": "AU-02",
+      "description": "Audit access restriction: viewer@example.test",
+      "status": "PASS"
+    },
+    {
+      "id": "AU-03",
+      "description": "Audit access restriction: officer@example.test",
+      "status": "PASS"
+    },
+    {
+      "id": "AU-04",
+      "description": "Audit access restriction: stranger@example.test",
+      "status": "PASS"
+    },
+    {
+      "id": "AU-05",
+      "description": "Audit records previous/new values, actor, role and stable event ID",
+      "status": "PASS"
+    },
+    {
+      "id": "AU-06",
+      "description": "Legacy object history and missing details labelled without mutation",
+      "status": "PASS"
+    },
+    {
+      "id": "AU-07",
+      "description": "IST date filter includes previous UTC date",
+      "status": "PASS"
+    },
+    {
+      "id": "AU-08",
+      "description": "Reject invalid audit query from=2026-02-30",
+      "status": "PASS"
+    },
+    {
+      "id": "AU-09",
+      "description": "Reject invalid audit query from=2026-10-20&to=2026-10-19",
+      "status": "PASS"
+    },
+    {
+      "id": "AU-10",
+      "description": "Reject invalid audit query page=-1",
+      "status": "PASS"
+    },
+    {
+      "id": "AU-11",
+      "description": "Reject invalid audit query page=1.5",
+      "status": "PASS"
+    },
+    {
+      "id": "AU-12",
+      "description": "Reject invalid audit query role=Administrator",
+      "status": "PASS"
+    },
+    {
+      "id": "AU-13",
+      "description": "Reject invalid audit query q=a&q=b",
+      "status": "PASS"
+    },
+    {
+      "id": "AU-14",
+      "description": "Search field, actor name, E-office and text",
+      "status": "PASS"
+    },
+    {
+      "id": "AU-15",
+      "description": "Audit pagination returns all rows exactly once",
+      "status": "PASS"
+    },
+    {
+      "id": "EX-01",
+      "description": "Deny both Excel exports to viewer@example.test",
+      "status": "PASS"
+    },
+    {
+      "id": "EX-02",
+      "description": "Deny both Excel exports to officer@example.test",
+      "status": "PASS"
+    },
+    {
+      "id": "EX-03",
+      "description": "Anonymous Excel denied",
+      "status": "PASS"
+    },
+    {
+      "id": "EX-04",
+      "description": "Reject invalid export request",
+      "status": "PASS"
+    },
+    {
+      "id": "EX-05",
+      "description": "Reject invalid export request",
+      "status": "PASS"
+    },
+    {
+      "id": "EX-06",
+      "description": "Reject invalid export request",
+      "status": "PASS"
+    },
+    {
+      "id": "EX-07",
+      "description": "Reject invalid export request",
+      "status": "PASS"
+    },
+    {
+      "id": "EX-08",
+      "description": "Complete workbook contains cases, history, roles and export metadata",
+      "status": "PASS"
+    },
+    {
+      "id": "EX-09",
+      "description": "Filtered audit exports only matching data and logs export separately",
+      "status": "PASS"
+    },
+    {
+      "id": "EX-10",
+      "description": "Export fails closed when backup/audit cannot be saved",
+      "status": "PASS"
+    },
+    {
+      "id": "EX-11",
+      "description": "Concurrent exports do not overwrite newer data",
+      "status": "PASS"
+    },
+    {
+      "id": "EX-12",
+      "description": "Export audit survives backup/recovery",
+      "status": "PASS"
+    },
+    {
+      "id": "CN-01",
+      "description": "Ordinary administrator save cannot change case number",
+      "status": "PASS"
+    },
+    {
+      "id": "CN-02",
+      "description": "MCP ordinary save cannot change case number",
+      "status": "PASS"
+    },
+    {
+      "id": "CN-03",
+      "description": "Non-admin correction blocked",
+      "status": "PASS"
+    },
+    {
+      "id": "CN-04",
+      "description": "Non-admin correction blocked",
+      "status": "PASS"
+    },
+    {
+      "id": "CN-05",
+      "description": "Invalid case-number action rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "CN-06",
+      "description": "Invalid case-number action rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "CN-07",
+      "description": "Invalid case-number action rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "CN-08",
+      "description": "Invalid case-number action rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "CN-09",
+      "description": "Invalid case-number action rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "CN-10",
+      "description": "Invalid case-number action rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "CN-11",
+      "description": "Correction preserves identity, deadlines, history and searchable prior number",
+      "status": "PASS"
+    },
+    {
+      "id": "CN-12",
+      "description": "Court renumbering records order and date",
+      "status": "PASS"
+    },
+    {
+      "id": "CN-13",
+      "description": "Normalized duplicate correction blocked",
+      "status": "PASS"
+    },
+    {
+      "id": "CN-14",
+      "description": "Stale version correction blocked",
+      "status": "PASS"
+    },
+    {
+      "id": "CN-15",
+      "description": "Correction retry is idempotent; changed reference rejects reused request",
+      "status": "PASS"
+    },
+    {
+      "id": "CN-16",
+      "description": "Concurrent case-number corrections preserve one winner",
+      "status": "PASS"
+    },
+    {
+      "id": "CN-17",
+      "description": "Unknown payload fields and forged identity rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "AU-16",
+      "description": "Access changes appear in audit results",
+      "status": "PASS"
+    },
+    {
+      "id": "AU-17",
+      "description": "Audit and export endpoints cannot edit history",
+      "status": "PASS"
+    },
+    {
+      "id": "AU-18",
+      "description": "No-op ordinary save leaves history unchanged",
+      "status": "PASS"
+    }
+  ]
+}

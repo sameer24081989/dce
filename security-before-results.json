@@ -1,0 +1,161 @@
+{
+  "executedAt": "2026-10-19T15:26:23.261Z",
+  "scope": "Synthetic isolated storage, local cryptographic tests, simulated identity provider; no production mutations",
+  "results": [
+    {
+      "id": "SEC-1",
+      "description": "Reject misleading JSON media type application/jsonp",
+      "status": "FAIL",
+      "evidence": "Expected values to be strictly equal:\n\n400 !== 415\n"
+    },
+    {
+      "id": "SEC-2",
+      "description": "Reject misleading JSON media type application/json-evil",
+      "status": "FAIL",
+      "evidence": "Expected values to be strictly equal:\n\n400 !== 415\n"
+    },
+    {
+      "id": "SEC-3",
+      "description": "Reject misleading JSON media type application/json; charset=iso-8859-1",
+      "status": "FAIL",
+      "evidence": "Expected values to be strictly equal:\n\n400 !== 415\n"
+    },
+    {
+      "id": "SEC-4",
+      "description": "Root CSP hashes every executable inline script",
+      "status": "FAIL",
+      "evidence": "The expression evaluated to a falsy value:\n\n  assert.ok(csp)\n"
+    },
+    {
+      "id": "SEC-5",
+      "description": "API denial has no-store and nosniff",
+      "status": "FAIL",
+      "evidence": "Expected values to be strictly equal:\n\nnull !== 'nosniff'\n"
+    },
+    {
+      "id": "SEC-6",
+      "description": "Recovery rejects checksum-valid conflicting access owner",
+      "status": "FAIL",
+      "evidence": "Missing expected rejection."
+    },
+    {
+      "id": "SEC-7",
+      "description": "Reject malformed signed identity claims 0",
+      "status": "FAIL",
+      "evidence": "Missing expected exception."
+    },
+    {
+      "id": "SEC-8",
+      "description": "Reject malformed signed identity claims 1",
+      "status": "FAIL",
+      "evidence": "Missing expected exception."
+    },
+    {
+      "id": "SEC-9",
+      "description": "Reject malformed signed identity claims 2",
+      "status": "FAIL",
+      "evidence": "Missing expected exception."
+    },
+    {
+      "id": "SEC-10",
+      "description": "Reject malformed signed identity claims 3",
+      "status": "FAIL",
+      "evidence": "Missing expected exception."
+    },
+    {
+      "id": "SEC-11",
+      "description": "Reject malformed signed identity claims 4",
+      "status": "FAIL",
+      "evidence": "Missing expected exception."
+    },
+    {
+      "id": "SEC-12",
+      "description": "Unknown signing-key attacks do not repeatedly refetch discovery",
+      "status": "FAIL",
+      "evidence": "Unexpected provider fetches: 16"
+    },
+    {
+      "id": "SEC-13",
+      "description": "Simultaneous discovery requests share one in-flight fetch",
+      "status": "FAIL",
+      "evidence": "Expected values to be strictly equal:\n\n16 !== 2\n"
+    },
+    {
+      "id": "SEC-14",
+      "description": "Duplicate session cookies fail closed",
+      "status": "FAIL",
+      "evidence": "Missing expected rejection."
+    },
+    {
+      "id": "SEC-15",
+      "description": "Duplicate callback parameters rejected before state consumption",
+      "status": "FAIL",
+      "evidence": "The input did not match the regular expression /ambiguous/i. Input:\n\n'Error: Invalid identity token'\n"
+    },
+    {
+      "id": "SEC-16",
+      "description": "Streaming oversized identity responses are cancelled at limit",
+      "status": "FAIL",
+      "evidence": "The expression evaluated to a falsy value:\n\n  assert.ok(cancelled)\n"
+    },
+    {
+      "id": "SEC-17",
+      "description": "Invalid API payload rejected 0",
+      "status": "PASS"
+    },
+    {
+      "id": "SEC-18",
+      "description": "Invalid API payload rejected 1",
+      "status": "PASS"
+    },
+    {
+      "id": "SEC-19",
+      "description": "Invalid API payload rejected 2",
+      "status": "PASS"
+    },
+    {
+      "id": "SEC-20",
+      "description": "Invalid API payload rejected 3",
+      "status": "PASS"
+    },
+    {
+      "id": "SEC-21",
+      "description": "Invalid API payload rejected 4",
+      "status": "PASS"
+    },
+    {
+      "id": "SEC-22",
+      "description": "Invalid API payload rejected 5",
+      "status": "PASS"
+    },
+    {
+      "id": "SEC-23",
+      "description": "Case officer cannot change deadline",
+      "status": "PASS"
+    },
+    {
+      "id": "SEC-24",
+      "description": "Viewer cannot export complete database",
+      "status": "PASS"
+    },
+    {
+      "id": "SEC-25",
+      "description": "Cross-origin write rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "SEC-26",
+      "description": "Encoded traversal paths do not expose backup objects",
+      "status": "PASS"
+    },
+    {
+      "id": "SEC-27",
+      "description": "Disabled maintenance and package export are unavailable",
+      "status": "PASS"
+    }
+  ],
+  "counts": {
+    "FAIL": 16,
+    "PASS": 11
+  }
+}

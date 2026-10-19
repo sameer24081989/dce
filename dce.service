@@ -1,0 +1,21 @@
+[Unit]
+Description=DCE Legal Case Monitor
+After=network-online.target
+Wants=network-online.target
+[Service]
+Type=simple
+User=dce
+Group=dce
+WorkingDirectory=/opt/dce/app
+EnvironmentFile=/etc/dce/dce.env
+ExecStart=/usr/bin/node /opt/dce/app/sdc/server.mjs
+Restart=on-failure
+RestartSec=5
+UMask=0077
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+ReadWritePaths=/var/lib/dce
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,86 @@
+{
+  "targetRuntime": {
+    "status": "BLOCKED",
+    "evidence": "",
+    "verifiedBy": "",
+    "verifiedAt": ""
+  },
+  "storageTransactions": {
+    "status": "BLOCKED",
+    "evidence": "",
+    "verifiedBy": "",
+    "verifiedAt": ""
+  },
+  "verifiedAuthentication": {
+    "status": "BLOCKED",
+    "evidence": "",
+    "verifiedBy": "",
+    "verifiedAt": ""
+  },
+  "tlsDomain": {
+    "status": "BLOCKED",
+    "evidence": "",
+    "verifiedBy": "",
+    "verifiedAt": ""
+  },
+  "roleAccounts": {
+    "status": "BLOCKED",
+    "evidence": "",
+    "verifiedBy": "",
+    "verifiedAt": ""
+  },
+  "migrationReconciled": {
+    "status": "BLOCKED",
+    "evidence": "",
+    "verifiedBy": "",
+    "verifiedAt": ""
+  },
+  "restoreDrill": {
+    "status": "BLOCKED",
+    "evidence": "",
+    "verifiedBy": "",
+    "verifiedAt": ""
+  },
+  "browserMobileAccessibility": {
+    "status": "BLOCKED",
+    "evidence": "",
+    "verifiedBy": "",
+    "verifiedAt": ""
+  },
+  "mailboxReceipt": {
+    "status": "BLOCKED",
+    "evidence": "",
+    "verifiedBy": "",
+    "verifiedAt": ""
+  },
+  "unattendedSchedule": {
+    "status": "BLOCKED",
+    "evidence": "",
+    "verifiedBy": "",
+    "verifiedAt": ""
+  },
+  "monitoringEscalation": {
+    "status": "BLOCKED",
+    "evidence": "",
+    "verifiedBy": "",
+    "verifiedAt": ""
+  },
+  "staffExercises": {
+    "status": "BLOCKED",
+    "evidence": "",
+    "verifiedBy": "",
+    "verifiedAt": ""
+  },
+  "ownershipHandover": {
+    "status": "BLOCKED",
+    "evidence": "",
+    "verifiedBy": "",
+    "verifiedAt": ""
+  },
+  "cutoverRollback": {
+    "status": "BLOCKED",
+    "evidence": "",
+    "verifiedBy": "",
+    "verifiedAt": ""
+  }
+}

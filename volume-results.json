@@ -1,0 +1,33 @@
+{
+  "executedAt": "2026-10-19T17:34:28.223Z",
+  "results": [
+    {
+      "id": "VOL-01",
+      "description": "Read 2500 independent synthetic cases",
+      "status": "PASS",
+      "elapsedMs": 21,
+      "scope": "Local synthetic capacity check; not a target-server benchmark"
+    },
+    {
+      "id": "VOL-02",
+      "description": "Paginate large audit and find final case",
+      "status": "PASS",
+      "elapsedMs": 1033,
+      "scope": "Local synthetic capacity check; not a target-server benchmark"
+    },
+    {
+      "id": "VOL-03",
+      "description": "Generate complete 2500-case workbook with appended export audit",
+      "status": "PASS",
+      "elapsedMs": 1201,
+      "scope": "Local synthetic capacity check; not a target-server benchmark"
+    },
+    {
+      "id": "VOL-04",
+      "description": "Register capacity guard stops growth without overwriting current records",
+      "status": "PASS",
+      "elapsedMs": 602,
+      "scope": "Local synthetic capacity check; not a target-server benchmark"
+    }
+  ]
+}

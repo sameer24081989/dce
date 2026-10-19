@@ -1,0 +1,38 @@
+{
+  "executedAt": "2026-10-19T15:13:14.147Z",
+  "runtime": "Node.js v24.19.0",
+  "backend": "SQLite WAL / synchronous FULL / conditional transactions",
+  "scope": "Existing regression scripts rerun with DCE_TEST_SQLITE=yes against the portable store; synthetic records only",
+  "suites": {
+    "qa-results": {
+      "PASS": 79,
+      "FAIL": 0,
+      "BLOCKED": 6
+    },
+    "audit-results": {
+      "PASS": 47,
+      "FAIL": 0,
+      "BLOCKED": 0
+    },
+    "commissioning-results": {
+      "PASS": 34,
+      "FAIL": 0,
+      "BLOCKED": 0
+    },
+    "package-export-results": {
+      "PASS": 5,
+      "FAIL": 0,
+      "BLOCKED": 0
+    },
+    "sdc-portable-results": {
+      "PASS": 35,
+      "FAIL": 0,
+      "BLOCKED": 0
+    },
+    "sdc-install-results": {
+      "PASS": 7,
+      "FAIL": 0,
+      "BLOCKED": 0
+    }
+  }
+}

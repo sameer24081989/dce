@@ -1,0 +1,26 @@
+{
+  "executedAt": "2026-10-19T12:36:23.669Z",
+  "site": "https://dce-legal-isolated-staging.jocundgnome.chatgpt.site",
+  "storage": "Independent hosted Cloudflare R2 staging binding; synthetic fixtures under per-run namespaces",
+  "results": [
+    {
+      "id": "HTTP-AUTH",
+      "status": "PASS",
+      "checks": [
+        {
+          "forged": false,
+          "httpStatus": 401
+        },
+        {
+          "forged": true,
+          "httpStatus": 401
+        },
+        {
+          "missingQaSecret": true,
+          "httpStatus": 404
+        }
+      ],
+      "elapsedMs": 26089
+    }
+  ]
+}

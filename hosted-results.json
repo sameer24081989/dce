@@ -1,0 +1,480 @@
+{
+  "executedAt": "2026-10-19T12:30:33.107Z",
+  "site": "https://dce-legal-isolated-staging.jocundgnome.chatgpt.site",
+  "storage": "Independent hosted Cloudflare R2 staging binding; synthetic fixtures under per-run namespaces",
+  "results": [
+    {
+      "id": "VAL-01",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 12477
+    },
+    {
+      "id": "VAL-02",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 12649
+    },
+    {
+      "id": "VAL-03",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 16418
+    },
+    {
+      "id": "VAL-04",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 4407
+    },
+    {
+      "id": "VAL-05",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 6417
+    },
+    {
+      "id": "VAL-06",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 4084
+    },
+    {
+      "id": "VAL-07",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 6748
+    },
+    {
+      "id": "VAL-10",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 41
+    },
+    {
+      "id": "VAL-08",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 7172
+    },
+    {
+      "id": "VAL-09",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 6318
+    },
+    {
+      "id": "DATE-01",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 3370
+    },
+    {
+      "id": "DATE-04",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 3083
+    },
+    {
+      "id": "DATE-02",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 3886
+    },
+    {
+      "id": "DATE-03",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 5464
+    },
+    {
+      "id": "DATE-05",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 3261
+    },
+    {
+      "id": "DATE-07",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 3509
+    },
+    {
+      "id": "DATE-10",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 7033
+    },
+    {
+      "id": "DATE-11",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 6974
+    },
+    {
+      "id": "AUTH-05",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 7641
+    },
+    {
+      "id": "STATUS-01",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 3542
+    },
+    {
+      "id": "SEC-16",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 7239
+    },
+    {
+      "id": "DATE-12",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 8310
+    },
+    {
+      "id": "STATUS-02",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 7971
+    },
+    {
+      "id": "STATUS-04",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 8439
+    },
+    {
+      "id": "STATUS-03",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 10536
+    },
+    {
+      "id": "AUTH-01",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 2307
+    },
+    {
+      "id": "AUTH-02",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 2784
+    },
+    {
+      "id": "STATUS-05",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 7908
+    },
+    {
+      "id": "AUTH-03",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 8117
+    },
+    {
+      "id": "AUTH-04",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 7739
+    },
+    {
+      "id": "SEC-11",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 7280
+    },
+    {
+      "id": "SEC-09",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 6405
+    },
+    {
+      "id": "AUTH-06",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 7043
+    },
+    {
+      "id": "SEC-17",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 6669
+    },
+    {
+      "id": "AUD-02",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 5957
+    },
+    {
+      "id": "AUTH-07",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 9190
+    },
+    {
+      "id": "AUTH-08",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 9234
+    },
+    {
+      "id": "SEC-15",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 9407
+    },
+    {
+      "id": "DATA-01",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 8767
+    },
+    {
+      "id": "OPS-06",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 9818
+    },
+    {
+      "id": "CON-09",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 9602
+    },
+    {
+      "id": "DATA-02",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 5980
+    },
+    {
+      "id": "CON-11",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 10045
+    },
+    {
+      "id": "DATA-03",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 5885
+    },
+    {
+      "id": "CON-10",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 6644
+    },
+    {
+      "id": "DATA-04",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 8047
+    },
+    {
+      "id": "DATA-06",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 5391
+    },
+    {
+      "id": "DATA-05",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 8393
+    },
+    {
+      "id": "DATA-07",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 5066
+    },
+    {
+      "id": "AUD-01",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 5502
+    },
+    {
+      "id": "UI-04",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 5895
+    },
+    {
+      "id": "OPS-02",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 3243
+    },
+    {
+      "id": "OPS-01",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 9326
+    },
+    {
+      "id": "OPS-04",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 9638
+    },
+    {
+      "id": "SEC-12",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 3595
+    },
+    {
+      "id": "SEC-14",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 868
+    },
+    {
+      "id": "SEC-10",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 6829
+    },
+    {
+      "id": "DAT-13",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 5553
+    },
+    {
+      "id": "SEC-18",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 7461
+    },
+    {
+      "id": "DAT-14",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 3063
+    },
+    {
+      "id": "DAT-15",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 3328
+    },
+    {
+      "id": "DAT-17",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 9669
+    },
+    {
+      "id": "OPS-03",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 39047,
+      "retested": true
+    },
+    {
+      "id": "CON-12",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 11881
+    },
+    {
+      "id": "AUD-03",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 8365
+    },
+    {
+      "id": "OPS-05",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 26060,
+      "retested": true
+    },
+    {
+      "id": "NOTIFY-EXTRA",
+      "status": "PASS",
+      "evidence": "Hosted R2 notification retries, leases, deduplication and granted-extension cancellation; simulated delivery only",
+      "httpStatus": 200,
+      "elapsedMs": 95541,
+      "retested": true
+    }
+  ],
+  "note": "Combined evidence: initial hosted run plus corrected-scenario and notification retests. Initial failure retained in hosted-results.initial.json. Delivery transport is simulated; storage is real isolated hosted R2."
+}

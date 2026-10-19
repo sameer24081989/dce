@@ -1,0 +1,41 @@
+{
+  "executedAt": "2026-10-19T17:34:23.773Z",
+  "results": [
+    {
+      "id": "JS-01",
+      "description": "Existing case number locked for administrator; correction action visible",
+      "status": "PASS",
+      "scope": "JavaScript unit simulation; not real-browser verification"
+    },
+    {
+      "id": "JS-02",
+      "description": "New case number editable for administrator",
+      "status": "PASS",
+      "scope": "JavaScript unit simulation; not real-browser verification"
+    },
+    {
+      "id": "JS-03",
+      "description": "Officer cannot edit protected fields or see correction action",
+      "status": "PASS",
+      "scope": "JavaScript unit simulation; not real-browser verification"
+    },
+    {
+      "id": "JS-04",
+      "description": "Viewer cannot edit or save",
+      "status": "PASS",
+      "scope": "JavaScript unit simulation; not real-browser verification"
+    },
+    {
+      "id": "JS-05",
+      "description": "History values safely rendered",
+      "status": "PASS",
+      "scope": "JavaScript unit simulation; not real-browser verification"
+    },
+    {
+      "id": "JS-06",
+      "description": "New UI script and accessible labels compile",
+      "status": "PASS",
+      "scope": "JavaScript unit simulation; not real-browser verification"
+    }
+  ]
+}

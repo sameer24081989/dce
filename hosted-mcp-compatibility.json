@@ -1,0 +1,14 @@
+{
+  "executedAt": "2026-10-19T13:03:48.282Z",
+  "site": "https://dce-legal-isolated-staging.jocundgnome.chatgpt.site",
+  "storage": "Independent hosted Cloudflare R2 staging binding; synthetic fixtures under per-run namespaces",
+  "results": [
+    {
+      "id": "MCP-EXTRA",
+      "status": "PASS",
+      "evidence": "Hosted R2 MCP reserved metadata compatibility, unchanged attribution and strict business-field validation",
+      "httpStatus": 200,
+      "elapsedMs": 13434
+    }
+  ]
+}

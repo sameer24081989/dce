@@ -1,0 +1,435 @@
+{
+  "stagingRoot": "/tmp/dce-staging-zaG2Ec",
+  "executedAt": "2026-10-19T17:34:22.172Z",
+  "counts": {
+    "PASS": 79,
+    "BLOCKED": 6
+  },
+  "results": [
+    {
+      "id": "VAL-01",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "VAL-02",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "VAL-03",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "VAL-04",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "VAL-05",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "VAL-06",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "VAL-07",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "VAL-08",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "VAL-09",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "VAL-10",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "DATE-01",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "DATE-02",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "DATE-03",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "DATE-04",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "DATE-05",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "DATE-06",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "DATE-07",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "DATE-08",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "DATE-09",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "DATE-10",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "DATE-11",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "AUTH-05",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "SEC-16",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "DATE-12",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "STATUS-01",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "STATUS-02",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "STATUS-03",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "STATUS-04",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "STATUS-05",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "AUTH-01",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "AUTH-02",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "AUTH-03",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "AUTH-04",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "SEC-11",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "AUTH-06",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "SEC-09",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "SEC-17",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "AUD-02",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "AUTH-07",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "AUTH-08",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "SEC-15",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "OPS-06",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "DATA-01",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "CON-09",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "CON-11",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "DATA-02",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "CON-10",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "DATA-03",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "DATA-04",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "DATA-05",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "DATA-06",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "AUD-01",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "DATA-07",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "DATA-08",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "CAL-01",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "CAL-02",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "CAL-03",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "CAL-04",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "CAL-05",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "UI-01",
+      "status": "BLOCKED",
+      "evidence": "Server/static assertions passed; real browser form interaction and network recovery remain unverified"
+    },
+    {
+      "id": "UI-02",
+      "status": "BLOCKED",
+      "evidence": "Browser/device QA unavailable; keyboard focus, screen reader and narrow viewport need manual verification"
+    },
+    {
+      "id": "UI-06",
+      "status": "BLOCKED",
+      "evidence": "Browser/device QA unavailable; keyboard focus, screen reader and narrow viewport need manual verification"
+    },
+    {
+      "id": "UI-07",
+      "status": "BLOCKED",
+      "evidence": "Browser/device QA unavailable; keyboard focus, screen reader and narrow viewport need manual verification"
+    },
+    {
+      "id": "UI-03",
+      "status": "BLOCKED",
+      "evidence": "Server/static assertions passed; real browser form interaction and network recovery remain unverified"
+    },
+    {
+      "id": "UI-04",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "UI-05",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "SEC-13",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "OPS-01",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "OPS-04",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "OPS-02",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "OPS-03",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "SEC-10",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "SEC-12",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "SEC-14",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "SEC-18",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "DAT-13",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "DAT-14",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "DAT-15",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "DAT-16",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "DAT-17",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "DAT-18",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "CON-12",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "AUD-03",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "OPS-05",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution"
+    },
+    {
+      "id": "UI-08",
+      "status": "BLOCKED",
+      "evidence": "Server/static assertions passed; real browser form interaction and network recovery remain unverified"
+    }
+  ]
+}

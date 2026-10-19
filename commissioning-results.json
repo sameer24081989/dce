@@ -1,0 +1,178 @@
+{
+  "executedAt": "2026-10-19T17:34:24.733Z",
+  "results": [
+    {
+      "id": "REM-01",
+      "description": "New deadline six days away receives catch-up",
+      "status": "PASS"
+    },
+    {
+      "id": "REM-02",
+      "description": "Catch-up does not repeat the next day",
+      "status": "PASS"
+    },
+    {
+      "id": "REM-03",
+      "description": "Three-day reminder still follows an earlier catch-up",
+      "status": "PASS"
+    },
+    {
+      "id": "REM-04",
+      "description": "A recorded seven-day reminder suppresses redundant catch-up",
+      "status": "PASS"
+    },
+    {
+      "id": "REM-05",
+      "description": "New officer assignment receives one catch-up",
+      "status": "PASS"
+    },
+    {
+      "id": "REM-06",
+      "description": "Runner downtime across seven-day point catches up at five days",
+      "status": "PASS"
+    },
+    {
+      "id": "REM-07",
+      "description": "Disposal alone does not suppress outstanding obligation",
+      "status": "PASS"
+    },
+    {
+      "id": "REM-08",
+      "description": "Explicit Done and Archived obligations do not send",
+      "status": "PASS"
+    },
+    {
+      "id": "REM-09",
+      "description": "Due today and overdue are flagged in run summary without inventing extra reminder stages",
+      "status": "PASS"
+    },
+    {
+      "id": "REM-10",
+      "description": "Invalid legacy deadline is flagged and does not send",
+      "status": "PASS"
+    },
+    {
+      "id": "REM-11",
+      "description": "Revised legacy deadline without explicit grant date is flagged",
+      "status": "PASS"
+    },
+    {
+      "id": "REM-12",
+      "description": "Explicit granted extension gets independent catch-up and preserves original",
+      "status": "PASS"
+    },
+    {
+      "id": "REM-13",
+      "description": "Lost delivery response retries with stable relay idempotency key",
+      "status": "PASS"
+    },
+    {
+      "id": "REM-14",
+      "description": "IST midnight rollover does not duplicate seven-day alert",
+      "status": "PASS"
+    },
+    {
+      "id": "REM-15",
+      "description": "Invalid legacy email is isolated and other cases continue",
+      "status": "PASS"
+    },
+    {
+      "id": "REM-16",
+      "description": "Missing email is blocked and later assignment catches up",
+      "status": "PASS"
+    },
+    {
+      "id": "EXT-01",
+      "description": "New granted extension requires grant date",
+      "status": "PASS"
+    },
+    {
+      "id": "EXT-02",
+      "description": "Invalid grant date rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "EXT-03",
+      "description": "Grant date is stored and audited",
+      "status": "PASS"
+    },
+    {
+      "id": "EXT-04",
+      "description": "Officer cannot change grant date",
+      "status": "PASS"
+    },
+    {
+      "id": "EXT-05",
+      "description": "Extension requested leaves recorded deadline unchanged",
+      "status": "PASS"
+    },
+    {
+      "id": "RUN-01",
+      "description": "Unconfigured scheduled runner is unavailable",
+      "status": "PASS"
+    },
+    {
+      "id": "RUN-02",
+      "description": "Wrong scheduled-runner secret denied",
+      "status": "PASS"
+    },
+    {
+      "id": "RUN-03",
+      "description": "No active delegated administrator denies runner",
+      "status": "PASS"
+    },
+    {
+      "id": "RUN-04",
+      "description": "Browser-origin requests cannot invoke scheduled runner",
+      "status": "PASS"
+    },
+    {
+      "id": "RUN-05",
+      "description": "Scheduled runner accepts POST only",
+      "status": "PASS"
+    },
+    {
+      "id": "RUN-06",
+      "description": "Unexpected scheduled-runner payload rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "RUN-07",
+      "description": "Disabled delivery safely returns disabled result to authorised runner",
+      "status": "PASS"
+    },
+    {
+      "id": "RUN-08",
+      "description": "Configured runner requires delivery provider",
+      "status": "PASS"
+    },
+    {
+      "id": "RUN-09",
+      "description": "Authorised unattended runner records service identity and successful run summary with simulated relay",
+      "status": "PASS"
+    },
+    {
+      "id": "RUN-10",
+      "description": "Revoking delegated runner administrator stops subsequent unattended execution",
+      "status": "PASS"
+    },
+    {
+      "id": "FAIL-01",
+      "description": "Backup failure prevents any delivery",
+      "status": "PASS"
+    },
+    {
+      "id": "FAIL-02",
+      "description": "Failed post-send bookkeeping recovers using same relay key",
+      "status": "PASS"
+    },
+    {
+      "id": "FAIL-03",
+      "description": "Authority changed during snapshot prevents outbox commit and delivery",
+      "status": "PASS"
+    }
+  ],
+  "counts": {
+    "PASS": 34
+  }
+}

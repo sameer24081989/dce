@@ -1,0 +1,20 @@
+services:
+  app:
+    build:
+      context: ../..
+      dockerfile: sdc/deploy/Dockerfile
+    restart: unless-stopped
+    env_file: ./dce.env
+    environment:
+      HOST: 0.0.0.0
+    ports:
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - dce-data:/var/lib/dce
+    security_opt:
+      - no-new-privileges:true
+    cap_drop: [ALL]
+    read_only: true
+    tmpfs: [/tmp]
+volumes:
+  dce-data:

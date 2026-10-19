@@ -1,0 +1,5 @@
+import assert from'node:assert/strict';import {mkdtemp}from'node:fs/promises';import{tmpdir}from'node:os';import worker from'../worker/index.js';import{stagingStore}from'./staging-store.mjs';
+const env={REGISTER_OWNER_EMAIL:'admin@example.test',BUCKET:await stagingStore(await mkdtemp(tmpdir()+'/dce-window-'))};await env.BUCKET.put('access/register.json',JSON.stringify({ownerId:'test',members:[],history:[],version:'1'}));
+const saved=Date.now;let ms=Date.UTC(2026,9,19,12,0,59);Date.now=()=>ms;
+try{let last;for(let n=0;n<122;n++){ms+=400;last=await worker.fetch(new Request('https://test/api/cases',{method:'POST',headers:{'Content-Type':'application/json',origin:'https://test','oai-authenticated-user-id':'admin','oai-authenticated-user-email':'admin@example.test'},body:'{bad'}),env);}assert.equal(last.status,429);ms+=61000;assert.equal((await worker.fetch(new Request('https://test/api/cases',{headers:{'oai-authenticated-user-id':'admin','oai-authenticated-user-email':'admin@example.test'}}),env)).status,200);}finally{Date.now=saved;}
+console.log('Passed: rolling rate window spans clock-minute rollover and expires correctly.');

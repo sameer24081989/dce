@@ -1,0 +1,15 @@
+import worker from '../worker/index.js';
+import assert from 'node:assert/strict';
+import vm from 'node:vm';
+const html=await (await worker.fetch(new Request('https://test/'),{})).text();
+const script=html.match(/<script>([\s\S]*?)<\/script>/)[1];
+const elements=new Map();const el=id=>{if(!elements.has(id))elements.set(id,{value:'',textContent:'',innerHTML:'',hidden:false});return elements.get(id);};
+const ctx=vm.createContext({document:{getElementById:el,querySelectorAll:()=>[]},Intl,Date});
+vm.runInContext(script.slice(0,script.indexOf("$('inputs').innerHTML"))+script.slice(script.indexOf('let calendarPage='),script.indexOf('function open(c=null)')),ctx);
+vm.runInContext("cases=[{id:'a',eofficeFileNo:'DCE/123/2026',number:'<script>01/2026',parties:'Removed party',status:'Pending',deadline:'2026-10-15',officer:'Officer A'},{id:'b',number:'02/2026',parties:'DCE',status:'Pending',deadline:'2026-10-19'},{id:'c',number:'03',parties:'DCE',status:'Pending'}];calendarMonth='2026-10';selectedDate='2026-10-15';drawCalendar();",ctx);
+assert.match(el('deadlineCalendar').innerHTML,/01\/2026/);assert.match(el('deadlineCalendar').innerHTML,/Officer A/);assert.match(el('deadlineCalendar').innerHTML,/Eoffice File no:<\/b> DCE\/123\/2026/);assert.match(el('deadlineCalendar').innerHTML,/&lt;script&gt;/);assert.match(el('deadlineCalendar').innerHTML,/1 active case without/);assert.equal((el('deadlineCalendar').innerHTML.match(/data-day=/g)||[]).length,31);
+vm.runInContext("selectedDate='2026-10-19';drawCalendar()",ctx);assert.match(el('deadlineCalendar').innerHTML,/02\/2026/);assert.match(el('deadlineCalendar').innerHTML,/Eoffice File no:<\/b> Not recorded/);assert.doesNotMatch(el('deadlineCalendar').innerHTML,/01\/2026/);
+vm.runInContext("shiftMonth(1)",ctx);assert.match(el('deadlineCalendar').innerHTML,/November 2026/);assert.equal((el('deadlineCalendar').innerHTML.match(/data-day=/g)||[]).length,30);
+vm.runInContext("calendarMonth='2028-02';drawCalendar()",ctx);assert.equal((el('deadlineCalendar').innerHTML.match(/data-day=/g)||[]).length,29);
+el('search').value='nonexistent';vm.runInContext('drawCalendar()',ctx);assert.match(el('deadlineCalendar').innerHTML,/November|February/);
+console.log('Passed: date selection, case details, safe escaping, missing deadlines, month navigation, leap year and filtering.');

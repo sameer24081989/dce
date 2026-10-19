@@ -1,0 +1,28 @@
+# Adapt domain/certificates and approved TLS policy before use.
+# Node listens on loopback; do not expose its port directly to the Internet.
+server {
+  listen 80;
+  server_name legal.department.example;
+  return 301 https://$host$request_uri;
+}
+server {
+  listen 443 ssl;
+  server_name legal.department.example;
+  ssl_certificate /etc/ssl/dce/fullchain.pem;
+  ssl_certificate_key /etc/ssl/dce/privkey.pem;
+  client_max_body_size 64k;
+  add_header Strict-Transport-Security "max-age=31536000" always;
+  location / {
+    proxy_pass http://127.0.0.1:8080;
+    proxy_set_header Host $host;
+    proxy_set_header X-Forwarded-Proto https;
+    proxy_set_header X-Real-IP $remote_addr;
+    # Application strips untrusted identity headers; gateway is not an identity provider.
+    proxy_set_header oai-authenticated-user-id "";
+    proxy_set_header oai-authenticated-user-email "";
+    proxy_set_header X-Auth-Request-Email "";
+    proxy_set_header X-Forwarded-User "";
+    proxy_connect_timeout 5s;
+    proxy_read_timeout 45s;
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "executedAt": "2026-10-19T17:34:30.690Z",
+  "results": [
+    {
+      "id": "INSTALL-01",
+      "description": "Unprivileged installer completes in a new directory",
+      "status": "PASS"
+    },
+    {
+      "id": "INSTALL-02",
+      "description": "Installer records actual database path and target administrator",
+      "status": "PASS"
+    },
+    {
+      "id": "INSTALL-03",
+      "description": "Installed database permissions are private",
+      "status": "PASS"
+    },
+    {
+      "id": "INSTALL-04",
+      "description": "Installer refuses to overwrite an existing installation",
+      "status": "PASS"
+    },
+    {
+      "id": "INSTALL-05",
+      "description": "SQLite online backup and integrity check pass",
+      "status": "PASS"
+    },
+    {
+      "id": "INSTALL-06",
+      "description": "SQLite backup refuses existing destination",
+      "status": "PASS"
+    },
+    {
+      "id": "INSTALL-07",
+      "description": "Online backup preserves all stored object bytes",
+      "status": "PASS"
+    }
+  ],
+  "scope": "Local unprivileged installation/SQLite backup; no systemd, Nginx or Docker deployment performed"
+}

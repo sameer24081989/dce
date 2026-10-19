@@ -1,0 +1,38 @@
+[
+  {
+    "id": "XLSX-DATABASE",
+    "status": "PASS",
+    "sheets": [
+      "Cases",
+      "Audit History",
+      "Deadline Extension History",
+      "Raw Case History",
+      "Access Settings",
+      "Raw Access History",
+      "Notification History",
+      "Register Metadata",
+      "Request Receipts",
+      "Export Information",
+      "Data Dictionary"
+    ],
+    "evidence": "Independent openpyxl read; strings remain non-formulas; Unicode/filters verified as applicable"
+  },
+  {
+    "id": "XLSX-AUDIT",
+    "status": "PASS",
+    "sheets": [
+      "Audit History",
+      "Export Information",
+      "Data Dictionary"
+    ],
+    "evidence": "Independent openpyxl read; strings remain non-formulas; Unicode/filters verified as applicable"
+  },
+  {
+    "id": "XLSX-LONG",
+    "status": "PASS",
+    "sheets": [
+      "Long"
+    ],
+    "evidence": "Independent openpyxl read; strings remain non-formulas; Unicode/filters verified as applicable"
+  }
+]

@@ -1,0 +1,185 @@
+{
+  "executedAt": "2026-10-19T17:34:29.181Z",
+  "runtime": "v24.19.0",
+  "scope": "Local protocol/SQLite/cryptographic tests using synthetic records and a simulated OIDC provider; no real SDC or browser tested",
+  "results": [
+    {
+      "id": "SDC-01",
+      "description": "Installer creates a versioned empty register and explicit administrator audit",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-02",
+      "description": "Installer refuses existing target without overwriting it",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-03",
+      "description": "SQL storage conditional create and stale ETag protection",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-04",
+      "description": "SQL storage prefix escaping and stable cursor pagination",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-05",
+      "description": "Persistent rate limiter survives another database connection",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-06",
+      "description": "Valid signed departmental identity accepted",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-07",
+      "description": "Reject invalid identity claims/header",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-08",
+      "description": "Reject invalid identity claims/header",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-09",
+      "description": "Reject invalid identity claims/header",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-10",
+      "description": "Reject invalid identity claims/header",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-11",
+      "description": "Reject invalid identity claims/header",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-12",
+      "description": "Reject invalid identity claims/header",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-13",
+      "description": "Reject invalid identity claims/header",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-14",
+      "description": "Reject invalid identity claims/header",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-15",
+      "description": "Tampered identity signature rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-16",
+      "description": "Authorization-code login uses state, nonce and PKCE",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-17",
+      "description": "Mismatched login state rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-18",
+      "description": "Callback validates token and creates opaque server session",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-19",
+      "description": "Authorization callback replay rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-20",
+      "description": "Login nonce mismatch rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-21",
+      "description": "Real HTTP rejects forged hosting/identity headers",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-22",
+      "description": "Real HTTP accepts verified API audience and maps active role",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-23",
+      "description": "Browser ID-token audience is not accepted as an API token",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-24",
+      "description": "Real HTTP creates case through original application logic",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-25",
+      "description": "Real HTTP rejects cross-origin authenticated write",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-26",
+      "description": "Real HTTP concurrent case edits preserve one winner",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-27",
+      "description": "Real HTTP full workbook export is an actual XLSX",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-28",
+      "description": "Original MCP protocol works under verified API identity",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-29",
+      "description": "Unassigned verified account has no application access",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-30",
+      "description": "Hosted maintenance/export paths unavailable on SDC runtime",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-31",
+      "description": "Logout requires same-origin POST and removes opaque session",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-32",
+      "description": "Application revocation takes effect without expiring identity token",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-33",
+      "description": "Storage crash/close reopening preserves records",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-34",
+      "description": "Multi-process SQLite CAS admits one winner",
+      "status": "PASS"
+    },
+    {
+      "id": "SDC-35",
+      "description": "Verified object backup imports into empty target with cases/history intact",
+      "status": "PASS"
+    }
+  ],
+  "counts": {
+    "PASS": 35
+  }
+}

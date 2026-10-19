@@ -1,0 +1,28 @@
+{
+  "executedAt": "2026-10-19T12:36:05.998Z",
+  "site": "https://dce-legal-isolated-staging.jocundgnome.chatgpt.site",
+  "storage": "Independent hosted Cloudflare R2 staging binding; synthetic fixtures under per-run namespaces",
+  "results": [
+    {
+      "id": "OPS-05",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 26060
+    },
+    {
+      "id": "OPS-03",
+      "status": "PASS",
+      "evidence": "Automated isolated staging execution",
+      "httpStatus": 200,
+      "elapsedMs": 39047
+    },
+    {
+      "id": "NOTIFY-EXTRA",
+      "status": "PASS",
+      "evidence": "Hosted R2 notification retries, leases, deduplication and granted-extension cancellation; simulated delivery only",
+      "httpStatus": 200,
+      "elapsedMs": 95541
+    }
+  ]
+}

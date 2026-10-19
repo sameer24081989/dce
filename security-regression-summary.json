@@ -1,0 +1,87 @@
+{
+  "runtime": "v24.19.0",
+  "storage": "Isolated actual SQLite final follow-up run",
+  "suites": [
+    {
+      "suite": "qa",
+      "counts": {
+        "PASS": 79,
+        "BLOCKED": 6
+      },
+      "executedAt": "2026-10-19T17:34:22.172Z"
+    },
+    {
+      "suite": "audit",
+      "counts": {
+        "PASS": 47
+      },
+      "executedAt": "2026-10-19T17:34:23.584Z"
+    },
+    {
+      "suite": "audit-ui",
+      "counts": {
+        "PASS": 6
+      },
+      "executedAt": "2026-10-19T17:34:23.773Z"
+    },
+    {
+      "suite": "commissioning",
+      "counts": {
+        "PASS": 34
+      },
+      "executedAt": "2026-10-19T17:34:24.733Z"
+    },
+    {
+      "suite": "handover-tools",
+      "counts": {
+        "PASS": 13
+      },
+      "executedAt": "2026-10-19T17:34:25.166Z"
+    },
+    {
+      "suite": "volume",
+      "counts": {
+        "PASS": 4
+      },
+      "executedAt": "2026-10-19T17:34:28.223Z"
+    },
+    {
+      "suite": "package-export",
+      "counts": {
+        "PASS": 5
+      },
+      "executedAt": "2026-10-19T17:34:28.594Z"
+    },
+    {
+      "suite": "sdc-portable",
+      "counts": {
+        "PASS": 35
+      },
+      "executedAt": "2026-10-19T17:34:29.181Z"
+    },
+    {
+      "suite": "security-adversarial",
+      "counts": {
+        "PASS": 40
+      },
+      "executedAt": "2026-10-19T17:34:29.841Z"
+    },
+    {
+      "suite": "sdc-install",
+      "counts": {
+        "PASS": 7
+      },
+      "executedAt": "2026-10-19T17:34:30.690Z"
+    }
+  ],
+  "counts": {
+    "PASS": 270,
+    "BLOCKED": 6
+  },
+  "limitations": [
+    "Screenshot capture and six real-browser scenarios blocked: control-browser unavailable",
+    "Real SDC, TLS, OIDC provider, email relay and scheduler not commissioned",
+    "Docker/Nginx runtime and infrastructure vulnerability scans unverified",
+    "No independent penetration-test certificate"
+  ]
+}

@@ -1,0 +1,14 @@
+[Unit]
+Description=DCE scheduled reminder client
+After=network-online.target dce.service
+[Service]
+Type=oneshot
+User=dce
+Group=dce
+WorkingDirectory=/opt/dce/app
+EnvironmentFile=/etc/dce/runner.env
+ExecStart=/usr/bin/node /opt/dce/app/tools/run-reminders.mjs
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true

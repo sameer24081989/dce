@@ -1,0 +1,15 @@
+import worker,{stageSeed} from '../worker/index.js';import assert from 'node:assert/strict';import vm from 'node:vm';import {mkdtemp} from 'node:fs/promises';import {tmpdir} from 'node:os';import {stagingStore} from './staging-store.mjs';
+const html=await (await worker.fetch(new Request('https://test/'),{})).text();new vm.Script(html.match(/<script>([\s\S]*?)<\/script>/)[1]);
+const env={REGISTER_OWNER_EMAIL:'owner@test.org',DCE_ENV:'staging',BUCKET:await stagingStore(await mkdtemp(tmpdir()+'/dce-access-'))};
+const cfg={ownerId:'owner',members:[],history:[],version:'v1'};await env.BUCKET.put('access/register.json',JSON.stringify(cfg));await stageSeed(env,{actor:{email:'owner@test.org'},role:'Administrator',cfg,user:'owner'},[]);
+function req(path,method='GET',body,role='owner'){return new Request('https://test'+path,{method,headers:{'Content-Type':'application/json','oai-authenticated-user-id':role,'oai-authenticated-user-email':role+'@test.org','oai-authenticated-user-full-name':role,origin:'https://test'},body:body?JSON.stringify(body):undefined});}
+async function call(path,method='GET',body,role='owner'){const r=await worker.fetch(req(path,method,body,role),env);return {status:r.status,data:await r.json()};}
+assert.equal((await worker.fetch(new Request('https://test/api/cases'),env)).status,401);
+for(const [email,role]of [['viewer@test.org','Viewer'],['editor@test.org','Editor']]){const a=await call('/api/access');assert.equal((await call('/api/access','POST',{email,role,version:a.data.version})).status,200);}
+const input={number:'1/2026',subject:'Test only',status:'Pending',nextHearing:'2026-10-20',assignedOfficerEmail:'editor@test.org',requestId:crypto.randomUUID()};
+assert.equal((await call('/api/cases','POST',input,'viewer')).status,403);assert.equal((await call('/api/access','GET',null,'editor')).status,403);assert.equal((await call('/api/cases','GET',null,'stranger')).status,403);
+const saved=(await call('/api/cases','POST',input)).data;assert.ok(saved.id);assert.equal((await call('/api/cases','GET',null,'viewer')).data.length,1);
+const changed=(await call('/api/cases','POST',{id:saved.id,version:saved.version,reason:'Hearing updated',nextHearing:'2026-10-25'},'editor')).data;assert.equal(changed.history.length,2);assert.equal(changed.history[1].actor.email,'editor@test.org');assert.deepEqual(changed.history[1].changes,[{field:'nextHearing',before:'2026-10-20',after:'2026-10-25'}]);assert.equal((await call('/api/cases','POST',{id:saved.id,version:saved.version,reason:'Stale',action:'Stale'},'editor')).status,409);
+const access=(await call('/api/access')).data;await call('/api/access','POST',{email:'editor@test.org',role:'Remove',version:access.version});assert.equal((await call('/api/cases','GET',null,'editor')).status,403);
+const m=await worker.fetch(req('/mcp','POST',{jsonrpc:'2.0',id:1,method:'tools/call',params:{name:'save_case',arguments:input}},'viewer'),env);assert.equal((await m.json()).result.isError,true);
+console.log('Passed: role reads/writes, assigned officer edits, revocation, attribution, audit preservation, stale writes, MCP enforcement and browser script syntax.');
